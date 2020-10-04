@@ -1,0 +1,14 @@
+{
+    "Lua.diagnostics.globals": [
+        "minetest",
+        "ItemStack",
+        "spawn_falling_node",
+        "vector",
+        "VoxelArea",
+        "PcgRandom",
+        "dump",
+        "VoxelManip",
+        "PseudoRandom"
+    ],
+    "Lua.runtime.version": "Lua 5.1"
+}
