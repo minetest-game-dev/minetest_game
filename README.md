@@ -6,7 +6,7 @@ Most mods written for the minetest game should be compatible with this fork. If 
 
 ## Installation
 
-- Unzip the archive, rename the folder to minetest_game_dev and
+- Unzip the archive, rename the folder to minetest_game and
 place it in .. minetest/games/
 
 - GNU/Linux: If you use a system-wide installation place
