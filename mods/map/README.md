@@ -9,25 +9,25 @@ paramat (MIT)
 Authors of media (textures)
 ---------------------------
 TumeniNodes (CC BY-SA 3.0):
-  map_mapping_kit.png (map)
+* map_mapping_kit.png (map)
 
 paramat (CC BY-SA 3.0):
-  map_mapping_kit.png (compass and pen)
+* map_mapping_kit.png (compass and pen)
 
 Crafting
 --------
 map:mapping_kit
 
-default:glass G
-default:paper P
-group:stick S
-default:steel_ingot I
-group:wood W
-dye:black D
+default:glass G  
+default:paper P  
+group:stick S  
+default:steel_ingot I  
+group:wood W  
+dye:black D  
 
-GPS
-IPI
-WPD
+GPS  
+IPI  
+WPD  
 
 Usage
 -----

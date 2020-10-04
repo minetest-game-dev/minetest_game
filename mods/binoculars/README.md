@@ -8,19 +8,19 @@ paramat (MIT)
 
 Authors of media (textures)
 ---------------------------
-paramat (CC BY-SA 3.0):
+paramat (CC BY-SA 3.0):  
   binoculars_binoculars.png
 
 Crafting
 --------
 binoculars:binoculars
 
-default:obsidian_glass O
+default:obsidian_glass O  
 default:bronze_ingot B
 
-O_O
-BBB
-O_O
+O_O  
+BBB  
+O_O  
 
 Usage
 -----

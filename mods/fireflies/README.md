@@ -10,11 +10,11 @@ Shara RedCat (MIT)
 Authors of media (textures)
 ---------------------------
 Shara RedCat (CC BY-SA 3.0):
-  fireflies_firefly.png
-  fireflies_firefly_animated.png
-  fireflies_bugnet.png
-  fireflies_bottle.png
-  fireflies_bottle_animated.png
+* fireflies_firefly.png
+* fireflies_firefly_animated.png
+* fireflies_bugnet.png
+* fireflies_bottle.png
+* fireflies_bottle_animated.png
 
 fireflies_bugnet.png is modified from a texture by tenplus1 (CC0)
 
