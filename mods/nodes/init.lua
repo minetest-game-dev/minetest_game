@@ -1,4 +1,4 @@
--- mods/default/nodes.lua
+--default.register_fence(":default-- mods/default/nodes.lua"
 
 -- support for MT game translation.
 local S = default.get_translator
@@ -2671,7 +2671,7 @@ minetest.register_node(":default:ladder_steel", {
 	sounds = default.node_sound_metal_defaults(),
 })
 
-default.register_fence("default:fence_wood", {
+default.register_fence(":default:fence_wood", {
 	description = S("Apple Wood Fence"),
 	texture = "default_fence_wood.png",
 	inventory_image = "default_fence_overlay.png^default_wood.png^" ..
@@ -2683,7 +2683,7 @@ default.register_fence("default:fence_wood", {
 	sounds = default.node_sound_wood_defaults()
 })
 
-default.register_fence("default:fence_acacia_wood", {
+default.register_fence(":default:fence_acacia_wood", {
 	description = S("Acacia Wood Fence"),
 	texture = "default_fence_acacia_wood.png",
 	inventory_image = "default_fence_overlay.png^default_acacia_wood.png^" ..
@@ -2695,7 +2695,7 @@ default.register_fence("default:fence_acacia_wood", {
 	sounds = default.node_sound_wood_defaults()
 })
 
-default.register_fence("default:fence_junglewood", {
+default.register_fence(":default:fence_junglewood", {
 	description = S("Jungle Wood Fence"),
 	texture = "default_fence_junglewood.png",
 	inventory_image = "default_fence_overlay.png^default_junglewood.png^" ..
@@ -2707,7 +2707,7 @@ default.register_fence("default:fence_junglewood", {
 	sounds = default.node_sound_wood_defaults()
 })
 
-default.register_fence("default:fence_pine_wood", {
+default.register_fence(":default:fence_pine_wood", {
 	description = S("Pine Wood Fence"),
 	texture = "default_fence_pine_wood.png",
 	inventory_image = "default_fence_overlay.png^default_pine_wood.png^" ..
@@ -2719,7 +2719,7 @@ default.register_fence("default:fence_pine_wood", {
 	sounds = default.node_sound_wood_defaults()
 })
 
-default.register_fence("default:fence_aspen_wood", {
+default.register_fence(":default:fence_aspen_wood", {
 	description = S("Aspen Wood Fence"),
 	texture = "default_fence_aspen_wood.png",
 	inventory_image = "default_fence_overlay.png^default_aspen_wood.png^" ..
@@ -2731,7 +2731,7 @@ default.register_fence("default:fence_aspen_wood", {
 	sounds = default.node_sound_wood_defaults()
 })
 
-default.register_fence_rail("default:fence_rail_wood", {
+default.register_fence_rail(":default:fence_rail_wood", {
 	description = S("Apple Wood Fence Rail"),
 	texture = "default_fence_rail_wood.png",
 	inventory_image = "default_fence_rail_overlay.png^default_wood.png^" ..
@@ -2743,7 +2743,7 @@ default.register_fence_rail("default:fence_rail_wood", {
 	sounds = default.node_sound_wood_defaults()
 })
 
-default.register_fence_rail("default:fence_rail_acacia_wood", {
+default.register_fence_rail(":default:fence_rail_acacia_wood", {
 	description = S("Acacia Wood Fence Rail"),
 	texture = "default_fence_rail_acacia_wood.png",
 	inventory_image = "default_fence_rail_overlay.png^default_acacia_wood.png^" ..
@@ -2755,7 +2755,7 @@ default.register_fence_rail("default:fence_rail_acacia_wood", {
 	sounds = default.node_sound_wood_defaults()
 })
 
-default.register_fence_rail("default:fence_rail_junglewood", {
+default.register_fence_rail(":default:fence_rail_junglewood", {
 	description = S("Jungle Wood Fence Rail"),
 	texture = "default_fence_rail_junglewood.png",
 	inventory_image = "default_fence_rail_overlay.png^default_junglewood.png^" ..
@@ -2767,7 +2767,7 @@ default.register_fence_rail("default:fence_rail_junglewood", {
 	sounds = default.node_sound_wood_defaults()
 })
 
-default.register_fence_rail("default:fence_rail_pine_wood", {
+default.register_fence_rail(":default:fence_rail_pine_wood", {
 	description = S("Pine Wood Fence Rail"),
 	texture = "default_fence_rail_pine_wood.png",
 	inventory_image = "default_fence_rail_overlay.png^default_pine_wood.png^" ..
@@ -2779,7 +2779,7 @@ default.register_fence_rail("default:fence_rail_pine_wood", {
 	sounds = default.node_sound_wood_defaults()
 })
 
-default.register_fence_rail("default:fence_rail_aspen_wood", {
+default.register_fence_rail(":default:fence_rail_aspen_wood", {
 	description = S("Aspen Wood Fence Rail"),
 	texture = "default_fence_rail_aspen_wood.png",
 	inventory_image = "default_fence_rail_overlay.png^default_aspen_wood.png^" ..
@@ -2842,31 +2842,31 @@ minetest.register_node(":default:meselamp", {
 	light_source = default.LIGHT_MAX,
 })
 
-default.register_mesepost("default:mese_post_light", {
+default.register_mesepost(":default:mese_post_light", {
 	description = S("Apple Wood Mese Post Light"),
 	texture = "default_fence_wood.png",
 	material = "default:wood",
 })
 
-default.register_mesepost("default:mese_post_light_acacia", {
+default.register_mesepost(":default:mese_post_light_acacia", {
 	description = S("Acacia Wood Mese Post Light"),
 	texture = "default_fence_acacia_wood.png",
 	material = "default:acacia_wood",
 })
 
-default.register_mesepost("default:mese_post_light_junglewood", {
+default.register_mesepost(":default:mese_post_light_junglewood", {
 	description = S("Jungle Wood Mese Post Light"),
 	texture = "default_fence_junglewood.png",
 	material = "default:junglewood",
 })
 
-default.register_mesepost("default:mese_post_light_pine_wood", {
+default.register_mesepost(":default:mese_post_light_pine_wood", {
 	description = S("Pine Wood Mese Post Light"),
 	texture = "default_fence_pine_wood.png",
 	material = "default:pine_wood",
 })
 
-default.register_mesepost("default:mese_post_light_aspen_wood", {
+default.register_mesepost(":default:mese_post_light_aspen_wood", {
 	description = S("Aspen Wood Mese Post Light"),
 	texture = "default_fence_aspen_wood.png",
 	material = "default:aspen_wood",
